@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34667" started-at="2021-09-17T20:39:53Z" finished-at="2021-09-17T20:40:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34667" started-at="2021-09-17T20:39:53Z" finished-at="2021-09-17T20:40:28Z">
+      <class name="training.FirstSeleniumJavaTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:training.FirstSeleniumJavaTest@6b26e945]" name="beforeTest" is-config="true" duration-ms="1484" started-at="2021-09-18T02:09:53Z" finished-at="2021-09-18T02:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:suite1.OpenCartTests@63a65a25]" name="beforeTest" is-config="true" duration-ms="1389" started-at="2021-09-18T02:09:55Z" finished-at="2021-09-18T02:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:suite2.SauceDemoTests@54c562f7]" name="beforeTest" is-config="true" duration-ms="1235" started-at="2021-09-18T02:09:56Z" finished-at="2021-09-18T02:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testEasy()[pri:0, instance:training.FirstSeleniumJavaTest@6b26e945]" name="testEasy" duration-ms="10903" started-at="2021-09-18T02:09:57Z" finished-at="2021-09-18T02:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEasy -->
+        <test-method status="PASS" signature="testTwo()[pri:0, instance:training.FirstSeleniumJavaTest@6b26e945]" name="testTwo" duration-ms="5159" started-at="2021-09-18T02:10:08Z" finished-at="2021-09-18T02:10:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:training.FirstSeleniumJavaTest@6b26e945]" name="afterTest" is-config="true" duration-ms="588" started-at="2021-09-18T02:10:26Z" finished-at="2021-09-18T02:10:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:suite1.OpenCartTests@63a65a25]" name="afterTest" is-config="true" duration-ms="681" started-at="2021-09-18T02:10:26Z" finished-at="2021-09-18T02:10:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:suite2.SauceDemoTests@54c562f7]" name="afterTest" is-config="true" duration-ms="629" started-at="2021-09-18T02:10:27Z" finished-at="2021-09-18T02:10:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- training.FirstSeleniumJavaTest -->
+      <class name="suite1.OpenCartTests">
+        <test-method status="PASS" signature="launchSite()[pri:0, instance:suite1.OpenCartTests@63a65a25]" name="launchSite" duration-ms="7084" started-at="2021-09-18T02:10:13Z" finished-at="2021-09-18T02:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method status="PASS" signature="searchForProduct()[pri:0, instance:suite1.OpenCartTests@63a65a25]" name="searchForProduct" duration-ms="1016" started-at="2021-09-18T02:10:20Z" finished-at="2021-09-18T02:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForProduct -->
+      </class> <!-- suite1.OpenCartTests -->
+      <class name="suite2.SauceDemoTests">
+        <test-method status="PASS" signature="open()[pri:0, instance:suite2.SauceDemoTests@54c562f7]" name="open" duration-ms="4125" started-at="2021-09-18T02:10:21Z" finished-at="2021-09-18T02:10:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="FAIL" signature="login()[pri:1, instance:suite2.SauceDemoTests@54c562f7]" name="login" duration-ms="346" started-at="2021-09-18T02:10:26Z" finished-at="2021-09-18T02:10:26Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".product_label"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MININT-3V65FN3', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\AKASRI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53650}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: af8e974c38526347ae987191ea3afc49
+*** Element info: {Using=class name, value=product_label}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".product_label"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MININT-3V65FN3', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\AKASRI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53650}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: af8e974c38526347ae987191ea3afc49
+*** Element info: {Using=class name, value=product_label}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:408)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at suite2.SauceDemoTests.login(SauceDemoTests.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- suite2.SauceDemoTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
