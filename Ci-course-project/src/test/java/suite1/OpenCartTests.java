@@ -1,9 +1,6 @@
 package suite1;
 
 import org.testng.annotations.Test;
-
-import suite2.SauceDemoTests;
-
 import org.testng.AssertJUnit;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
@@ -33,6 +30,7 @@ public class OpenCartTests {
 	public void launchSite() {
 		driver.get(url); 
 		String title = driver.getTitle();
+	//	System.out.println(title);
 		//Your Store
 		AssertJUnit.assertTrue(title.equals("Your Store"));
 
